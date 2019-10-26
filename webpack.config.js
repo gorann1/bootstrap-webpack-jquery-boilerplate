@@ -82,8 +82,6 @@ const config = {
     ],
   },
   plugins: [
-    'eslint-plugin-plugin2',
-    'html',
     new CleanWebpackPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',

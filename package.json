@@ -24,7 +24,11 @@
     "bootstrap": "^4.3.1",
     "fullpage.js": "^3.0.7",
     "jquery": "^3.3.1",
+    "modernizr": "^3.8.0",
+    "parallax-js": "^3.1.0",
+    "particles.js": "^2.0.0",
     "popper.js": "^1.14.7",
+    "snapsvg": "^0.5.1",
     "velocity-animate": "^1.5.2"
   },
   "devDependencies": {
@@ -68,6 +72,15 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
+  "keywords": [
+    "bootstrap",
+    "fullpagejs",
+    "jquery",
+    "particles",
+    "snapsvg",
+    "velocityjs",
+    "webpack"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
